@@ -1,0 +1,76 @@
+if it's hot
+    It's a hot day
+    Drink plenty of water
+otherwise if it's cold
+    It's a cold day
+    Wear warm clothes
+otherwise
+    It's a lovely day
+
+EXERCISE
+Price of a house is $1M.
+if the buyer has goo credit
+    they need to put down 10%
+otherwise
+    they need to put down 20%
+Print the down payment
+
+
+LOGICAL OPERATORS
+
+If applicant has high income AND good credit
+    Eligigble for loan
+
+If applicant has high income OR good credit
+    Eligigble for loan
+
+If applicant has good credit AND doesn't have a criminal record
+    Eligible for loan
+
+
+COMPARISON OPERATORS
+If temperature is greater than 30
+    It's a hot day
+otherwise if it's less than 10
+    It's a cold day
+otherwise
+    It's neither hot nor cold
+
+Exercise
+If a name is less than 3 characters long
+    name must be at least 3 characters
+otherwise if it's more than 50 characters long
+    name can be a maximum of 50 characters
+otherwise
+    name looks good!
+
+
+DICTIONARIES
+Name: John Smith
+Email: john@gmail.com
+Phone: 1234
+
+
+OBJECTS
+Exercise
+Person =  A new type. Person Object
+    - name = attribute
+    - talk() = method
+
+
+MODULES
+Exercise - Write a function called find_max, this function will take a list and return the largest number in that list.
+Extract the function and put in a module called utils, then import the utils module into the current module and call find_max.
+Get the result and print it on the terminal.
+numbers = [10,3, 6, 2]
+max = numbers[0]
+for item in numbers:
+    if item > max:
+        max = item
+print(max)
+
+
+GENERATING RANDOM VALUES
+Exercise - A program to get 2 random value when a dice is tossed
+Dice = A class
+    - roll() = A method, and anytime we call this method we get a Tuple.
